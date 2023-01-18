@@ -1,0 +1,17 @@
+.calculator-container {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: clamp(40vh, 50%, 60vh);
+  height: clamp(60vh, 50%, 70vh);
+  background-color: rgba(255, 255, 255, 0.804);
+}
+
+.buttons-container {
+  padding: 12px;
+}
+
+.result {
+  background-color: white;
+}

@@ -1,0 +1,22 @@
+.button-col {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.button {
+  width: 100%;
+}
+
+.calculate {
+  letter-spacing: 0.6px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  background-color: #3287c6;
+}
+.calculate:hover {
+  background-color: #3d729b;
+}

@@ -1,7 +1,13 @@
+import { Row } from 'react-bootstrap';
 import './App.css';
+import Calculator from './Calculator';
 
 function App() {
-  return <div className="app-container"></div>;
+  return (
+    <Row className="app-container">
+      <Calculator />
+    </Row>
+  );
 }
 
 export default App;
