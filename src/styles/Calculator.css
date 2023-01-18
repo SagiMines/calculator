@@ -1,10 +1,10 @@
 .calculator-container {
+  border-radius: 15px;
   padding: 12px;
-  display: flex;
   justify-content: center;
   margin: auto;
-  width: clamp(40vh, 50%, 60vh);
-  height: clamp(60vh, 50%, 70vh);
+  width: clamp(30rem, 100%, 60vh);
+  height: clamp(30rem, 100%, 65vh);
   background-color: rgba(255, 255, 255, 0.804);
 }
 
@@ -14,4 +14,9 @@
 
 .result {
   background-color: white;
+  align-items: center;
+}
+.result > .col {
+  height: fit-content;
+  font-size: 30px;
 }
