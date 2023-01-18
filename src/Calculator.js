@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import CalculatorButton from './CalculatorButton';
+import { numbers, signs } from './DAL/data';
 import './styles/Calculator.css';
 
 function Calculator() {
   const [equation, setEquation] = useState('');
-  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-  const signs = ['+', '-', '*', '/'];
 
   // Handles calculator's buttons clicks
   const handleClick = async e => {
