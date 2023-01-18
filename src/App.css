@@ -2,6 +2,7 @@
   height: 100%;
 }
 .app-container {
+  margin: 0;
   height: 100%;
   background-image: url('./../public/background.jpg');
   background-repeat: repeat-y;
